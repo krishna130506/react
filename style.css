@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+}
+
+.body *{
+    border: solid;
+}
+h1{
+    color: black;
+    background-color: white;
+    border: solid;
+}
+h2{
+    color: yellow   ;
+    background-color:black;
+}
+
+p,h1{
+    text-align: center;
+}
+.tags{
+    background-color: red;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ph{
+    text-align: center;
+}
